@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.muaz1.curo.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/Choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose a Project:"
+            android:textSize="18sp"
+
+             />
+        <Spinner
+            android:id="@+id/ProjectSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_toEndOf="@+id/Choose">
+
+        </Spinner>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Choose"
+            android:paddingTop="20sp"
+            android:text="Enter the agenda for the meeting Below:"
+            android:textSize="18sp"
+            android:id="@+id/txtEnter"
+            />
+
+        <EditText
+            android:id="@+id/Agenda"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtEnter"
+            android:inputType="text"
+            android:imeOptions="actionNext"
+            android:lines="3"
+            android:maxLines="4"
+            android:scrollbars="vertical"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:id="@+id/txtTime"
+            android:layout_below="@+id/Agenda"
+            android:text="Select a time:"
+            android:textSize="18sp"
+            />
+        <TimePicker
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/TimePicker"
+            android:timePickerMode="spinner"
+            android:layout_below="@+id/txtTime"
+            android:layout_alignEnd="@+id/txtEnter"
+            android:layout_marginTop="27dp">
+
+        </TimePicker>
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TimePicker"
+        android:onClick="Submit_Data"
+        android:text="Submit" />
+
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="?android:attr/windowBackground"
+        android:clickable="?attr/isLightTheme"
+        app:itemBackground="@android:color/darker_gray"
+        app:itemIconTint="@android:color/holo_green_dark"
+        app:itemTextColor="@android:color/white"
+        app:menu="@menu/navigation" />
+
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+#Fri Oct 06 15:54:41 CAT 2017
+base.0=C\:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_61073ce512bf18063c783ab4dff4f2c72f181a34
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d207450c2ce93d69d24fd590a0a340ec0cfea409\\classes.dex
+base.1=C\:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d207450c2ce93d69d24fd590a0a340ec0cfea409
+file.0=C\:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_61073ce512bf18063c783ab4dff4f2c72f181a34\\classes.dex

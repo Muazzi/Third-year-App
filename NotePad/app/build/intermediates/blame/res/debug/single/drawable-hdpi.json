@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_note_add.png",
+        "source": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\src\\main\\res\\drawable-hdpi\\ic_note_add.png"
+    },
+    {
+        "merged": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_save_icon_24dp.png",
+        "source": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_save_icon_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_delete_icon_24dp.png",
+        "source": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_delete_icon_24dp.png"
+    },
+    {
+        "merged": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_add_note_24dp.png",
+        "source": "C:\\Users\\muaz1\\source\\repos\\team03\\NotePad\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\ic_add_note_24dp.png"
+    }
+]
